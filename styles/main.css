@@ -4,6 +4,7 @@
 
 body {
     height: 100%;
+    width: 1920px;
     font-family: 'Lato', sans-serif;
     color: #ffffff;
     margin: 0;
@@ -17,9 +18,8 @@ body {
     display: flex;
     height: 55;
     background-color: rgba(34, 37, 51, 0.902);
-    /* padding-left: 375px; */
-    border: 1px #707070 solid;
-    padding-left: 5px;
+    /* border: 1px #707070 solid; */
+    padding-left: 373px;
     align-items: center;
 }
 
@@ -28,7 +28,7 @@ body {
     font-size: 35.69px;
     line-height: 13.77px;
     margin-top: 28px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     padding-bottom: 3.5px;
     align-items: center;
     text-align: center;
@@ -80,16 +80,28 @@ body {
     margin-right: 20px;
 }
 
+/* COMPONENT 2 */
+
 .component2 {
     display: flex;
     background-color: #404249;
     justify-content: center;
+    padding: 370px 0 475px 0;
+}
+
+.bigtext {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
 }
 
 .heading {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 100px;
+    font-size: 90px;
+    margin-bottom: -4px;
+    margin-left: 11px;
+    word-spacing: -4px;
 }
 
 .heading .teal {
@@ -98,12 +110,15 @@ body {
 
 .subheading {
     text-transform: capitalize;
-    font-size: 50px;
+    font-size: 25px;
+    margin-left: 14px;
+    word-spacing: 4px;
 }
 
 .leftarrow {
     position: absolute;
-    left: 100px;
+    left: 50px;
+    padding-top: 10px;
     align-self: center;
 }
 
@@ -111,6 +126,7 @@ body {
     background-color: #03fbca;
     color: #404249;
     border: 1px #03fbca solid;
+    padding: 11px 13px;
 }
 
 .component2 button:hover {
@@ -120,8 +136,22 @@ body {
 }
 
 .rightarrow {
-    /* position: absolute;
-    left: 100px; */
+    position: absolute;
+    padding-top: 11px;
+    right: -285px;
     align-self: center;
     justify-self: center;
 }
+
+.downarrow > a {
+    position: absolute;
+    bottom: 0;
+    color: inherit;
+}
+
+/* .component2::after{
+    position: absolute;
+    content: 'TEST';
+    color: white;
+    bottom: 1px;
+} */
