@@ -19,7 +19,7 @@ body {
     height: 55;
     background-color: rgba(34, 37, 51, 0.902);
     /* border: 1px #707070 solid; */
-    padding-left: 373px;
+    padding-left: 375px;
     align-items: center;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .links > a:first-of-type{
-    margin-left: 87.5px;
+    margin-left: 83.5px;
 }
 
 .links > a:hover {
